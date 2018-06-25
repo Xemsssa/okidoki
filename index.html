@@ -4,104 +4,134 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
-    <title>okidoki</title>
+    <title>okidoki_bootstrap</title>
     
     
-<!--    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     
      <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
     
     <link rel="stylesheet" href="styles/main.css">
+
+    <script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>
+
 </head>
 <body>
    
 <!--   header START-->
     <header class="header">
         <div class="wrapper">
-            <div class="logo">
-                <img src="images/oki.png" alt="oki">
-            </div>
-            
-            <div class="adress">
-                   <div>
-                       <div>   
-                        <img src="images/clock.png" alt="clock">
-                        с 12:00 до 24:00
-                       </div>
-                        ул. Кафедральная 8
-                           
-                   </div>
-            </div>
-            <div class="phone">
-               <div>
-                   <div>
-                        <img src="images/phone.png" alt="phone"><span>(063)</span> 180-50-10
-                    </div>
-                   <div class="call_back">
-                        <a href="#">перезвоните мне</a>
+           
+           <div class="row">
+               <div class="col-sm-3 header_logo">
+                    <img src="images/oki.png" alt="oki">
+               </div>
+<!--               <div class="col-md-3 adress">-->
+               <div class="col-sm-3 col-xs-6 adress">
+                   <div class="">
+                        <div class="work_time">
+                        <img src="images/clock.png" alt="clock">с 12:00 до 24:00
+                        </div>
+                        <div >
+                            ул. Кафедральная 8
+                        </div>
                    </div>
                </div>
-            </div>
-            
-            <div class="basket">
-              <div>
-                  <a href="#">
-                   <img src="images/dish.png" alt="dish">
-                   Ваш заказ
-               </a>
-               
-               <div>Всего выбрано блюд: <b><span>4</span> шт.</b></div>
-                <div>На сумму: <b><span>475 грн</span></b></div>
-            
-              </div>
-               
-<!--             <a href="#"><img src="/images/arrow.png" alt="">Оформить заказ</a>    -->
-            </div>
+<!--               <div class="col-md-3">-->
+               <div class="col-sm-3 col-xs-6 phone">
+                   <div class="">
+                           <div>
+                                <img src="images/phone.png" alt="phone"><span>(063)</span> 180-50-10
+                            </div>
+                           <div class="call_back">
+                                <a href="#">перезвоните мне</a>
+                           </div>
+                       </div>
+               </div>
+<!--               <div class="col-md-3">-->
+               <div class="col-sm-3 ">
+                     
+                    <div class="basket">
+                      <div>
+                        <a href="#">
+                           <img src="images/dish.png" alt="dish">
+                           Ваш заказ
+                        </a>
+
+                       <div>
+                           Всего выбрано блюд: 
+                           <b><span>4</span> шт.</b>
+                        </div>
+                        <div>
+                            На сумму: 
+                            <b><span>475 грн</span></b>
+                        </div>
+
+                      </div>
+        <!--             <a href="#"><img src="/images/arrow.png" alt="">Оформить заказ</a>    -->
+                    </div>
+               </div>
+           </div>   
         </div>
     </header>
 <!--    header END-->
    
+  
 <!--   navigation START-->
-    <div class="navigation">
+    <div class="navigation sticky">
         <div class="wrapper">
-         <div class="hamburger">
-             <div class="hamburger_line line1"></div>
-             <div class="hamburger_line line2"></div>
-             <div class="hamburger_line line3"></div>
-         </div>
-             <ul class="ulList" id="main_menu">
-                <li><a href="#"><img src="images/home.png" alt="home">Главная</a></li>
-                <li><a href="#"><img src="images/menu.png" alt="menu">Меню</a></li>
-                <li><a href="#"><img src="images/payment.png" alt="payment">Доставка и Оплата</a></li>
-                <li><a href="#"><img src="images/reviews.png" alt="reviews">Отзывы</a></li>
-                <li><a href="#"><img src="images/loc.png" alt="loc">Контакты</a></li>
-                <li><a href="#"><img src="images/promotion.png" alt="promo">Акции</a></li>
-             </ul>  
+            
+            <div class="row">
+                <div class="col-sm-9 ">
+                     <div class="hamburger">
+                         <div class="hamburger_line line1"></div>
+                         <div class="hamburger_line line2"></div>
+                         <div class="hamburger_line line3"></div>
+                     </div>
 
-            <div class="request">
-                <a href="#"><img src="images/arrow.png" alt="">Оформить</a>
-            </div>
-
+                     <ul class="ulList" id="main_menu">
+                        <li><a href="#"><img src="images/home.png" alt="home">Главная</a></li>
+                        <li><a href="okidoki_catalog.html"><img src="images/menu.png" alt="menu">Меню</a></li>
+                        <li><a href="#"><img src="images/payment.png" alt="payment">Доставка и Оплата</a></li>
+                        <li><a href="#"><img src="images/reviews.png" alt="reviews">Отзывы</a></li>
+                        <li><a href="#"><img src="images/loc.png" alt="loc">Контакты</a></li>
+                        <li><a href="#"><img src="images/promotion.png" alt="promo">Акции</a></li>
+                     </ul>  
+                </div>
+                
+                <div class="logo_mobile">
+                    <img src="images/oki.png" alt="logo"> 
+                </div>
+                
+                <div class="col-sm-3">
+                    <div class="request">
+                        <a href="#">
+                           <div class="desktop">
+                            <img class="arrow" src="images/arrow.png" alt="arrow">
+                            <span>Оформить</span>
+                           </div>
+                           
+                           <div class="mobile">
+                                <img class="own" src="./images/white_own.png" alt="own">
+                                <span>4</span> <span id="count">шт</span>     
+                           </div>
+                        </a>
+                    </div>
+                </div>
+            </div>      
         </div>
     </div>
 <!--    navigation END-->
 
 <!--    banner START-->
-     <div class="banner">
+         <div class="banner">
          <div class="wrapper">
-<!--
-             <div class="sushi_banner">
-             </div>
--->
-            <div>
-                
-            </div>
-            
+
             <!-- Slideshow container -->
-            <div class="slideshow-container">
+            <div class="slideshow_container">
 
               <!-- Full-width images with number and caption text -->
-              <div class="mySlides fade">
+              <div class="mySlides">
                <div class="promo">
                     <h1>Летние новинки</h1>
                     <p>два роллы в подарок к каждому заказу</p>
@@ -124,90 +154,95 @@
               </div>
 
               <!-- Next and previous buttons -->
+<!--
               <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
               <a class="next" onclick="plusSlides(1)">&#10095;</a>
             </div>
             <br>
+-->
+                     
+             
+            <!-- The dots/circles -->
+            <div class="dots" style="text-align:center">
+              <span class="dot" onclick="currentSlide(1)"></span> 
+              <span class="dot" onclick="currentSlide(2)"></span> 
+              <span class="dot" onclick="currentSlide(3)"></span> 
+            </div>
 
-                     </div>
-                 </div>
+         </div>
+     </div>
 <!--     banner END-->
      
 <!--     sushi_type START -->
 
     <div class="sushi">
-        <div class="wrapper">
-            <div class="product">
+        <div class="container">
+           <div class="row">
+               <div class="col-md-3 col-xs-6 sushi_type">
+                   <a href="#">
+<!--                      <img src="./images/sets.png"  class="sushi_image" alt="sets">-->
+                      <img src="./images/sets.png"  class="sushi_image" alt="sets">
+                      <h5>наборы "сеты"</h5>
+                    </a>
+               </div>
                
-                <a href="#">
-                  <div class="sushi_type">
-                      <div class="sushi_name">
-                          наборы "сеты"
-                      </div>
-                   </div>
-                </a>  
+               <div class="col-md-3 col-xs-6 sushi_type">
+                   <a href="#">
+                      <img src="./images/big_rolls.png"  class="sushi_image" alt="big_roll">
+                      <h5>большие роллы</h5>
+                    </a>
+               </div>
+                
+                <div class="col-md-3 col-xs-6 sushi_type">
+                   <a href="#">
+                      <img src="./images/maki_rolls.png"  class="sushi_image" alt="maki_roll">
+                      <h5>маки роллы</h5>
+                    </a>
+               </div>
                
+                <div class="col-md-3 col-xs-6 sushi_type">
+                   <a href="#">
+                      <img src="./images/own_rolls.png"  class="sushi_image" alt="own">
+                      <h5>запеченые роллы</h5>
+                    </a>
+               </div>
+           </div>
+                     
+                      
+            <div class="row">
+               <div class="col-md-3 col-xs-6 sushi_type">
+                   <a href="#">
+                      <img src="./images/sushi.png"  class="sushi_image" alt="sushi">
+                      <h5>суши</h5>
+                    </a>
+               </div>
+               
+               <div class="col-md-3  col-xs-6  sushi_type">
+                   <a href="#">
+                      <img src="./images/soup.png"  class="sushi_image" alt="sets">
+                      <h5>супы</h5>
+                    </a>
+               </div>
+                
+                <div class="col-md-3 col-xs-6 sushi_type">
+                   <a href="#">
+                      <img src="./images/tempura_roll.png"  class="sushi_image" alt="sets">
+                      <h5>темпура ролл</h5>
+                    </a>
+               </div>
+               
+                <div class="col-md-3 col-xs-6 sushi_type">
+                   <a href="#">
+                      <img src="./images/sets.png"  class="sushi_image" alt="sets">
+                      <h5>фирменные роллы</h5>
+                    </a>
+               </div>
+           </div>            
 
-                <a href="#">
-                    <div class="sushi_type">
-                        <div class="sushi_name">
-                            большие роллы
-                        </div>
-                    </div>
-                </a>
-
-                 <a href="#">
-                  <div class="sushi_type">
-                      <div class="sushi_name">
-                          маки роллы
-                      </div>
-                   </div>
-                </a>
-               
-                <a href="#">
-                    <div class="sushi_type">
-                        <div class="sushi_name">
-                            запеченные роллы
-                        </div>
-                    </div>
-                </a>
-                
-                <a href="#">
-                  <div class="sushi_type">
-                      <div class="sushi_name">
-                          суши
-                      </div>
-                   </div>
-                </a>
-               
-                <a href="#">
-                    <div class="sushi_type">
-                        <div class="sushi_name">
-                            супы
-                        </div>
-                    </div>
-                </a>
-                
-                <a href="#">
-                    <div class="sushi_type">
-                        <div class="sushi_name">
-                            фирменные роллы
-                        </div>
-                    </div>
-                </a>
-                
-                 <a href="#">
-                    <div class="sushi_type">
-                        <div class="sushi_name">
-                            темпура ролл
-                        </div>
-                    </div>
-                </a>
-            </div>
         </div>
     </div>
 
-<!--     sushi_type END -->
+<!--     sushi_type END 
       
 <!--    delivery START     -->
     <div class="delivery">
@@ -226,30 +261,37 @@
 <!-- our_adwantages START-->
     <div class="wrapper">
         <div class="adwantages">
-            <div class="adw">
-                <img src="images/fast-delivery.png" alt="fast_delivery">
-                <h3>Быстрая доставка</h3>
-                <p>У нас много курьеров,<br>мы не заставим вас ждать</p>
-            </div>
-
-            <div class="adw">
-                <img src="images/delicious_cusine.png" alt="delicious_cusine">
-                <h3>Быстрая доставка</h3>
-                <p>Все заказы готовятся <br>вручную из свежих продуктов</p>
-            </div>
-
-
-            <div class="adw">
-                <img src="images/packaging.png" alt="packaging">
-                <h3>Аккуратная упаковка</h3>
-                <p>В комплект к заказу входит <br>(имбирь, васаби, соевый соус)</p>
-            </div>
-
-            <div class="adw">
-                <img src="images/free_delivery.png" alt="free_delivery">
-                <h3>Бесплатная доставка</h3>
-                <p>Бесплатная доставка <br> всего от 250 грн</p>
-            </div>
+           <div class="row">
+               <div class="col-md-3 col-sm-6 col-xs-6 col-12 our_adwantage">
+                   <div class="">
+                        <img src="images/fast-delivery.png" alt="fast_delivery">
+                        <h3>Быстрая доставка</h3>
+                        <p>У нас много курьеров,<br>мы не заставим вас ждать</p>
+                    </div>
+               </div>
+               <div class="col-md-3 col-sm-6 col-xs-6 col-12 our_adwantage">
+<!--                    <div class="">-->
+                        <img src="images/delicious_cusine.png" alt="delicious_cusine">
+                        <h3>Быстрая доставка</h3>
+                        <p>Все заказы готовятся <br>вручную из свежих продуктов</p>
+<!--                    </div>    -->
+               </div>
+               
+               <div class="col-md-3 col-sm-6 col-xs-6 col-12 our_adwantage">
+<!--                  <div class="">-->
+                        <img src="images/packaging.png" alt="packaging">
+                        <h3>Аккуратная упаковка</h3>
+                        <p>В комплект к заказу входит <br>(имбирь, васаби, соевый соус)</p>
+<!--                    </div> -->
+               </div>
+               <div class="col-md-3 col-sm-6 col-xs-6 col-12 our_adwantage">
+<!--                   <div class="">-->
+                        <img src="images/free_delivery.png" alt="free_delivery">
+                        <h3>Бесплатная доставка</h3>
+                        <p>Бесплатная доставка <br> всего от 250 грн</p>
+<!--                    </div>-->
+               </div>
+           </div>  
         </div>
     </div>
 
@@ -257,64 +299,77 @@
  
 <!-- footer START-->
     <footer class="footer">
-        <div class="wrapper ">
-           
-           <div class="footer_logo clearfix">
-                <a href="#" class="logo">
-                    <img src="images/oki.png" alt="logo">
-                </a>
-                <div class="social">
-                    <a href="#">
-                        <img src="images/insta.png" alt="insta">
+        <div class="wrapper">
+          <div class="row">
+              <div class="col-md-3 col-sm-3 col-xs-12">
+                   <div class="footer_logo">
+                    <a href="#" class="logo">
+                        <img src="images/oki.png" alt="logo">
                     </a>
-                    <a href="#">
-                        <img src="images/facebook.png" alt="facebook">
-                    </a>
-                    <a href="#">
-                        <img src="images/vk.png" alt="vk">
-                    </a>
+                    <div class="social">
+<!--                       <div class="col-xs-4">-->
+                           <a href="#">
+                                <img src="images/insta.png" alt="insta">
+                            </a>
+<!--                       </div>-->
+<!--                       <div class="col-xs-4">-->
+                           <a href="#">
+                                <img src="images/facebook.png" alt="facebook">
+                            </a>
+<!--                       </div>-->
+<!--                       <div class="col-xs-4">-->
+                           <a href="#">
+                                <img src="images/vk.png" alt="vk">
+                            </a>
+<!--                       </div>-->
+                    </div>
+                   </div>
+              </div>
+              <div class="col-md-3 col-sm-3 col-xs-6 footer_nav">
+                  <div class="">
+                      <h4>Навигация</h4>
+                       <ul>
+                           <li><a href="">Главная</a></li>
+                           <li><a href="#">Меню</a></li>
+                           <li><a href="#">Доставка и оплата</a></li>
+                           <li><a href="#">Отзывы</a></li>
+                           <li><a href="#">Контакты</a></li>
+                           <li><a href="#">Акции</a></li>
+                       </ul>
+                    </div>
+              </div>
+              <div class="col-md-3 col-sm-3 col-xs-6 footer_menu">
+                      
+                <div class="">
+                  <h4>Меню</h4>
+                   <ul>
+                       <li><a href="">Наборы "СЕТЫ"</a></li>
+                       <li><a href="#">Большие роллы</a></li>
+                       <li><a href="#">Маки роллы</a></li>
+                       <li><a href="#">Запеченные ролы</a></li>
+                       <li><a href="#">Суши</a></li>
+                       <li><a href="#">Супы</a></li>
+                       <li><a href="#">Фирменные роллы</a></li>
+                       <li><a href="#">Темпура ролл</a></li>
+                   </ul>
                 </div>
-           </div>
-           <div class="footer_nav">
-              <p>Навигация</p>
-               <ul>
-                   <li><a href="">Главная</a></li>
-                   <li><a href="#">Меню</a></li>
-                   <li><a href="#">Доставка и оплата</a></li>
-                   <li><a href="#">Отзывы</a></li>
-                   <li><a href="#">Контакты</a></li>
-                   <li><a href="#">Акции</a></li>
-               </ul>
-            </div>
-               
-            <div class="footer_menu ">
-              <p>Меню</p>
-               <ul>
-                   <li><a href="">Наборы "СЕТЫ"</a></li>
-                   <li><a href="#">Большие роллы</a></li>
-                   <li><a href="#">Маки роллы</a></li>
-                   <li><a href="#">Запеченные ролы</a></li>
-                   <li><a href="#">Суши</a></li>
-                   <li><a href="#">Супы</a></li>
-                   <li><a href="#">Фирменные роллы</a></li>
-                   <li><a href="#">Темпура ролл</a></li>
-               </ul>
-            </div>
-            
-            <div class="application">
-                
-                <p>
-                    Мобильное приложение     
-                </p>
-                <div class="online_store">
-                    <a href="#">
-                        <img src="images/app_store.png" alt="apple_store">
-                    </a>
-                    <a href="#">
-                        <img src="images/google_play.png" alt="google_store">
-                    </a>
-                </div>
-            </div>                      
+              </div>
+              <div class="col-md-3 col-sm-3 col-xs-12 application">
+                <div class="">
+                    <p>
+                        Мобильное приложение     
+                    </p>
+                    <div class="online_store">
+                        <a href="#">
+                            <img src="images/app_store.png" alt="apple_store">
+                        </a>
+                        <a href="#">
+                            <img src="images/google_play.png" alt="google_store">
+                        </a>
+                    </div>
+                </div>     
+              </div>
+          </div>                   
         </div>
     </footer>
 
@@ -326,10 +381,10 @@
   crossorigin="anonymous"></script>
 
 
-<script src="js/main.js"></script>  
-
-<script src="js/slider.js"></script>  
-                 
+<script src="js/main.js"></script> 
+           
+<script src="js/slider.js"></script> 
+<script src="js/scroll.js"></script> 
             
 </body>
 </html>

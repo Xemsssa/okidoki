@@ -7,6 +7,8 @@ $( function () {
     
     function handler () {
         console.log("clicked");
+//        hamburger.css("color", "red");
+        
         list.toggleClass("active");
     }
 });

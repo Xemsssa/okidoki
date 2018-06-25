@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
-    <title>okidoki_bootstrap</title>
+<!--    <title>okidoki_odrer</title>-->
+    <title>okidoki_zakaz</title>
     
     
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
@@ -90,8 +91,8 @@
                      </div>
 
                      <ul class="ulList" id="main_menu">
-                        <li><a href="index.html"><img src="images/home.png" alt="home">Главная</a></li>
-                        <li><a href="#"><img src="images/menu.png" alt="menu">Меню</a></li>
+                        <li><a href="#"><img src="images/home.png" alt="home">Главная</a></li>
+                        <li><a href="okidoki_catalog.html"><img src="images/menu.png" alt="menu">Меню</a></li>
                         <li><a href="#"><img src="images/payment.png" alt="payment">Доставка и Оплата</a></li>
                         <li><a href="#"><img src="images/reviews.png" alt="reviews">Отзывы</a></li>
                         <li><a href="#"><img src="images/loc.png" alt="loc">Контакты</a></li>
@@ -123,166 +124,80 @@
     </div>
 <!--    navigation END-->
 
-<!-- okidoki_catalog START-->
-   <div class="catalog">
-        <div class="wrapper">
-            <div class="row">
-                <div class="col-md-3 menu_catalog">
-                    <ul>
-                        <li><a href="#"><img src="images/sets_from_catalog.png" alt="sets">Наборы "СЕТЫ"</a></li>
-                        <li><a href="#"><img src="images/roll_catalog.png" alt="roll">Большие роллы</a></li>
-                        <li><a href="#"><img src="images/roll_catalog.png" alt="roll">Маки роллы</a></li>
-                        <li><a href="#"><img src="images/roll_catalog.png" alt="roll">Запеченные роллы</a></li>
-                        <li><a href="#"><img src="images/sushi_catalog.png" alt="sushi">Суши</a></li>
-                    </ul>
-                </div>
-                <div class="col-md-9">
-                    <div class="nav catalog_nav">
-                        Главная / Большие роллы
-                    </div>
-                    
-                    <div class="row">
+<!-- zakaz START-->
+<div class="order">
+    <div class="wrapper">
+         <div class="nav catalog_nav">
+            Главная / Оформление заказа
+        </div>
+        
+        <div class="your_order">
+           <form action="">
+                <label for="">Ваш заказ
+<!--                    <div class="row order_position">-->
+                    <div class=" order_position">
+<!--                       <div class="col-xs-3 order_image">-->
+                       <div class=" order_image">
+                            <img src="./images/order_image.png" alt="order_image">
+                       </div>
                        
-                        <div class="col-lg-4 col-md-6 col-sm-6 col-xs-6 catalog_roll">
-                           <div class="catalog_roll_element">
-                               <img src="images/california_roll.png" alt="california">
-                            
-                            <h4>калифориния с лососем</h4>
-                            
-                            <p>Икра табика, огурец, лосось</p>
-
-                            <div class="roll_params">
-                               <div class="">
-                                <div>8шт.</div>
-                                <div>240г</div>
-                               </div>
-
-                                <div class="price">79.00 грн</div>
-                            </div>
-                            
-                            <button class="">Заказать</button>
-                           </div>
-                        </div>
-                        
-                        <div class="col-lg-4 col-md-6 col-sm-6 col-xs-6 catalog_roll">
-                           <div class="catalog_roll_element">
-                               <img src="images/california_roll.png" alt="california">
-                            
-                            <h4>калифориния с лососем</h4>
-                            
-                            <p>Икра табика, огурец, лосось</p>
-
-                            <div class="roll_params">
-                               <div class="">
-                                <div>8шт.</div>
-                                <div>240г</div>
-                               </div>
-
-                                <div class="price">79.00 грн</div>
-                            </div>
-                            
-                            <button class="">Заказать</button>
-                           </div>
-                            
-                        </div>
-                        
-                        <div class="col-lg-4 col-md-6 col-sm-6 col-xs-6 catalog_roll">
-                            <div class="catalog_roll_element">
-                               <img src="images/california_roll.png" alt="california">
-                            
-                            <div class="roll_name">
-                                <h4>калифориния с лососем</h4>
-                            </div>
-                            
-                            <div class="roll_ingredients">
+<!--                       <div class="col-xs-9 order_description">-->
+                       <div class=" order_description">
+                                <h4>Калифориния с лососем</h4>
                                 <p>Икра табика, огурец, лосось</p>
+                            <div class="order_params">
+                                <div class="price">79.00 грн
+                                </div>
+                                <input type="number" value="1">
                             </div>
-
-                            <div class="roll_params">
-                               <div class="">
-                                <div>8шт.</div>
-                                <div>240г</div>
-                               </div>
-
-                                <div class="price">79.00 грн</div>
-                            </div>
-                            
-                            <button class="">Заказать</button>
-                           </div>
-                            
-                        </div>
-                        
-                        <div class="col-lg-4 col-md-6 col-sm-6 col-xs-6 catalog_roll">
-                            <div class="catalog_roll_element">
-                               <img src="images/california_roll.png" alt="california">
-                            
-                            <h4>калифориния с лососем</h4>
-                            
-                            <p>Икра табика, огурец, лосось</p>
-
-                            <div class="roll_params">
-                               <div class="">
-                                <div>8шт.</div>
-                                <div>240г</div>
-                               </div>
-
-                                <div class="price">79.00 грн</div>
-                            </div>
-                            
-                            <button class="">Заказать</button>
-                           </div>
-                            
-                        </div>
-                        
-                        <div class="col-lg-4 col-md-6 col-sm-6 col-xs-6 catalog_roll">
-                            <div class="catalog_roll_element">
-                               <img src="images/california_roll.png" alt="california">
-                            
-                            <h4>калифориния с лососем</h4>
-                            
-                            <p>Икра табика, огурец, лосось</p>
-
-                            <div class="roll_params">
-                               <div class="">
-                                <div>8шт.</div>
-                                <div>240г</div>
-                               </div>
-
-                                <div class="price">79.00 грн</div>
-                            </div>
-                            
-                            <button class="">Заказать</button>
-                           </div>
-                        </div>
-                        
-                        <div class="col-lg-4 col-md-6 col-sm-6 col-xs-6 catalog_roll">
-                           <div class="catalog_roll_element">
-                               <img src="images/california_roll.png" alt="california">
-                            
-                            <h4>калифориния с лососем</h4>
-                            
-                            <p>Икра табика, огурец, лосось</p>
-
-                            <div class="roll_params">
-                               <div class="">
-                                <div>8шт.</div>
-                                <div>240г</div>
-                               </div>
-
-                                <div class="price">79.00 грн</div>
-                            </div>
-                            
-                            <button class="">Заказать</button>
-                           </div>
-                        </div>
+                       </div>
                     </div>
+
+                     <div class="order_position">
+                        <div class="order_image">
+                            <img src="./images/order_image.png" alt="order_image">
+                       </div>
+                       
+                       <div class="order_description">
+                                <h4>Калифориния с лососем</h4>
+                                <p>Икра табика, огурец, лосось</p>
+                            <div class="order_params">
+                                <div class="price">79.00 грн
+                                </div>
+                                <input type="number" value="1">
+                            </div>
+                       </div>
+                    </div>
+                </label>
+
+                <label for="">Кому доставить? <br>
+                        <input type="text" id="name" placeholder="Введите ваше Имя">
+                        <input type="phone" id="phone" placeholder="Введите ваш Телефон"> <br>
+                        <input type="text" id="adress" placeholder="Введите адрес доставки"> <br>
+                        <input type="checkbox" id="" name="">Самовывоз 
+                </label>
+                    
+                <label for="payment_type">Способы оплаты <br>
+                    <input type="radio" id="payment_type" name="payment_type">Наличными курьеру
+                    <input type="radio" id="payment_type" name="payment_type">Оплата картой
+                </label>
+                
+                <div class="payment">
+                    Сумма заказа: 158 грн <br>
+                    Доставка: 40 грн <br>
+                    Всего к оплате: 198 грн <br>
                 </div>
-            </div>
+                
+                
+                <input type="button" value="Оформить заказ" name="submit">
+           </form>
+            
         </div>
     </div>
+</div>
 
-<!-- okidoki_catalog END-->
 
+<!-- zakaz END-->
  
 <!-- footer START-->
     <footer class="footer">
