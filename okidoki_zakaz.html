@@ -51,27 +51,23 @@
                </div>
 <!--               <div class="col-md-3">-->
                <div class="col-sm-3 ">
-                     
-                    <div class="basket">
-                      <div>
-                        <a href="./okidoki_zakaz.html">
-                           <img src="images/dish.png" alt="dish">
-                           Ваш заказ
-                        </a>
-
-                       <div>
-                           Всего выбрано блюд: 
-                           <b><span>4</span> шт.</b>
+                     <a href="./okidoki_zakaz.html"> 
+                        <div class="basket">
+                          <div>
+                               <img src="images/dish.png" alt="dish">
+                               Ваш заказ
+                           <div>
+                               Всего выбрано блюд: 
+                               <b><span>4</span> шт.</b>
+                            </div>
+                            <div>
+                                На сумму: 
+                                <b><span>475 грн</span></b>
+                            </div>
+                          </div>
                         </div>
-                        <div>
-                            На сумму: 
-                            <b><span>475 грн</span></b>
-                        </div>
-
-                      </div>
-        <!--             <a href="#"><img src="/images/arrow.png" alt="">Оформить заказ</a>    -->
-                    </div>
-               </div>
+                     </a>
+<!--               </div>-->
            </div>   
         </div>
     </header>
@@ -105,8 +101,9 @@
                 </div>
                 
                 <div class="col-sm-3">
-                    <div class="request">
-                        <a href="./okidoki_zakaz.html">
+                    <a href="./okidoki_zakaz.html">
+                        <div class="request">
+                       
                            <div class="desktop">
                             <img class="arrow" src="images/arrow.png" alt="arrow">
                             <span>Оформить</span>
@@ -116,8 +113,8 @@
                                 <img class="own" src="./images/white_own.png" alt="own">
                                 <span>4</span> <span id="count">шт</span>     
                            </div>
-                        </a>
-                    </div>
+                        </div>
+                    </a>
                 </div>
             </div>      
         </div>
@@ -133,16 +130,17 @@
         
         <div class="your_order">
            <form action="">
-                <label for="">Ваш заказ
-<!--                    <div class="row order_position">-->
+                <label for=""><h4>Ваш заказ</h4>
+                   <div class="row">
+                       <div class="col-md-6"></div>
+                   </div>
                     <div class=" order_position">
-<!--                       <div class="col-xs-3 order_image">-->
-                       <div class=" order_image">
+                       <div class="order_image">
                             <img src="./images/order_image.png" alt="order_image">
                        </div>
                        
-<!--                       <div class="col-xs-9 order_description">-->
                        <div class=" order_description">
+<!--                       <div class=" order_description">-->
                                 <h4>Калифориния с лососем</h4>
                                 <p>Икра табика, огурец, лосось</p>
                             <div class="order_params">
@@ -170,16 +168,53 @@
                     </div>
                 </label>
 
-                <label for="">Кому доставить? <br>
-                        <input type="text" id="name" placeholder="Введите ваше Имя">
-                        <input type="phone" id="phone" placeholder="Введите ваш Телефон"> <br>
-                        <input type="text" id="adress" placeholder="Введите адрес доставки"> <br>
+                <label for=""><h4>Кому доставить?</h4> <br>
+                       <div class="delivery row">
+                          <div class="col-sm-6">
+                             <div class="row">
+                                 <div class="col-md-6 col-xs-6 user_data">
+                                     <input type="text" id="name" placeholder="Введите ваше Имя">
+                                 </div>
+                                 <div class="col-md-6 col-xs-6 user_data">
+                                      <input type="phone" id="phone" placeholder="Введите ваш Телефон"> <br>
+                                 </div>
+                             </div>
+                          </div>
+                           <div class="col-md-6"></div>
+                           
+                           <div class="row">
+                                <div class="col-xs-12 ">
+                                    <div class="col-sm-6 ">
+                                       <div class="delivery_adress">
+                                            <input type="text" id="adress" placeholder="Введите адрес доставки"> <br>
+                                       </div>
+                                    </div>
+                                </div>   
+                           </div>
+                       </div>
                         <input type="checkbox" id="" name="">Самовывоз 
+                        
                 </label>
                     
-                <label for="payment_type">Способы оплаты <br>
-                    <input type="radio" id="payment_type" name="payment_type">Наличными курьеру
-                    <input type="radio" id="payment_type" name="payment_type">Оплата картой
+                <label for="payment_type"><h4>Способы оплаты</h4> <br>
+                   
+                   <div class="row">
+                       <div class="col-md-6">
+                          
+                           <div class="col-md-6 payment_type">
+                               <input type="radio" id="payment_type" name="payment_type">Наличными курьеру
+                           </div>
+                           <div class="payment_type col-md-6 ">
+                                <input type="radio" id="payment_type" name="payment_type">Оплата картой
+                           </div>
+                           
+                       </div>
+                       <div class="col-md-6">
+                            
+                       </div>
+                   </div>
+                    
+                  
                 </label>
                 
                 <div class="payment">
