@@ -500,6 +500,14 @@ html, body {
 }
 
 
+.your_order label h4{
+    width: 100%;
+/*    padding: 0px;*/
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+
 .order_position {
     border: 1px solid #dcdcdc;
     display: flex;
@@ -710,6 +718,10 @@ html, body {
     .your_order {
         padding: 0 10px;
         margin: 5px;
+    }
+    
+    .catalog_nav {
+        margin: 0px 15px;
     }
 }
 
