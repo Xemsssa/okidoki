@@ -816,17 +816,19 @@ html, body {
     
     .ulList {
         background-color: #000;
+        position: absolute;
+        width: 250%;
+        width: 400%;
 /*        width: auto;*/
-        width: 100%;
     }
    
-    .ulList  {
-    }
-    
-    
     .navigation .col-sm-9 {
 /*        display: none;*/
-        width: 20%;
+/*        position: absolute;*/
+        width: 25%;
+/*        width: 100%;*/
+/*        width: 34%;*/
+/*        width: 100px;*/
         margin: 0;
         padding: 0;
     }
@@ -1072,6 +1074,6 @@ html, body {
 .active {
     display: block;
 /*    display: inline-block;*/
-    width: 100%;
+/*    width: 100%;*/
 }
 
