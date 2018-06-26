@@ -621,6 +621,7 @@ html, body {
     text-align: center;
     display: flex;
     justify-content: center;
+/*    justify-content: space-between;*/
     padding: 0;
     margin: 0;
     margin-bottom: 20px;
@@ -679,9 +680,10 @@ html, body {
 
  
 .adwantages img{
-    width: 72px;
+/*    width: 74px;*/
+    width: auto;
     height: 74px;
-    max-width: 72px;
+/*    max-width: 72px;*/
 }
 
 /* footer */
