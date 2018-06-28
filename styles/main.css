@@ -229,28 +229,39 @@ html, body {
 .banner {
     padding: 40px 0;
 }
-
+/* 
 .promo {
     background-image: url("../images/back.png");
     background-repeat: no-repeat;
     color: #fff;
     max-width: 100%;
     padding: 60px 50px 80px;
+} */
+
+.mySlides {
+    position: relative;
 }
 
-.promo h1 {
+.mySlides_content {
+    padding: 40px;
+    position: absolute;
+    top:0;
+    color: #fff;
+}
+
+.mySlides_content h1 {
 /*    font-size: 45px;*/
     font-size: 4.5rem;
     margin-bottom: 1px;
     text-transform: uppercase;
 }
 
-.promo p {
+.mySlides p {
     font-size: 23px;
     margin-bottom: 50px;
 }
 
-.promo button {
+.mySlides button {
     background-color: transparent;
     border: 2px solid #72edf7;
     padding: 10px 35px;
@@ -259,7 +270,7 @@ html, body {
     font-size: 24px;
 }
 
-.promo button:hover {
+.mySlides button:hover {
     background-color: #72edf7;
 }
 
@@ -273,21 +284,6 @@ html, body {
     background-position: top left;
 }
 */
-
-/* slider */
-
-/* Slideshow container */
-.slideshow_container {
-/*    display: flex;*/
-    position: relative;
-/*    justify-content: center;*/
-}
-
-
-.banner .wrapper {
-    position: relative;
-}
-
 
 /* Hide the images by default */
 .mySlides {
@@ -611,7 +607,7 @@ html, body {
 }
 
 .your_order input[type="button"] {
-    margin: 20px 0;
+    margin: 20px 0 160px;
     padding: 12px 40px;
     font-size: 18px;
     font-weight: 700;
@@ -964,7 +960,7 @@ html, body {
 
 @media (max-width: 600px) {
     .promo {
-        padding: 40px;
+        /* padding: 40px; */
     }
     
     .promo p {
@@ -1049,7 +1045,7 @@ html, body {
 @media (max-width: 425px) {
     .promo {
         text-align: center;
-        padding: 10px 30px;
+        /* padding: 10px 30px; */
     }
     
     .promo p{
