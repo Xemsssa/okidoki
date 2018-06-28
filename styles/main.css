@@ -225,10 +225,12 @@ html, body {
 }
 
 /* banner */
+/* slider */
 
 .banner {
     padding: 40px 0;
 }
+
 /* 
 .promo {
     background-image: url("../images/back.png");
