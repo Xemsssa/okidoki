@@ -1,16 +1,10 @@
-$(document).ready(function(){
-    $('.your-class').slick({
-      setting-name: setting-value
-    });
-  });
-      
 
+//  hamburger menu
 $( function () {
     var hamburger = $(".hamburger"),
         list = $(".ulList");
     
     hamburger.on("click", handler);
-    
     
     function handler () {
         console.log("clicked");
