@@ -138,6 +138,7 @@ html, body {
     position: relative;
     background: #72edf7;
     padding: 10px 19px;
+    padding: 11px 19px;
     cursor: pointer;
     
 }
@@ -751,6 +752,19 @@ html, body {
 }
 
 @media (max-width: 1010px) {
+    
+    .basket {
+        display: none;
+    }
+
+    .mobile {
+        display: block;
+    }
+
+    .desktop {
+        display: none;
+    }
+
     .hamburger {
         display: block;
         width: 70px;
@@ -776,6 +790,7 @@ html, body {
 }
 
 @media (max-width: 900px) {
+    
     .catalog_nav {
 /*        padding: 10px 20px;*/
         padding-left: 10px;
@@ -893,7 +908,7 @@ html, body {
     }
     
     .mobile {
-        padding: 5px 20px;
+        /* padding: 5px 20px; */
         display: flex;
 /*        border: 1px solid white;*/
         display: block;
@@ -929,12 +944,14 @@ html, body {
     }
     
     .footer .social {
-        display: flex;
-        justify-content: center;
+        /* display: flex; */
+        /* justify-content: center; */
+        /* padding: 10px; */
+        
     }
     
     .footer .social img{
-        margin: 0;
+        margin: 3px;
     }
     
     .application {
@@ -961,16 +978,31 @@ html, body {
 }
 
 @media (max-width: 600px) {
+    #count {
+        display: none;
+    }
+     
+    .mobile span {
+        color: #000;
+        position: absolute;
+        /* right: 20px; */
+        right: 40%;
+        top: 7px;
+    }
+            
+
     .promo {
         /* padding: 40px; */
     }
     
     .promo p {
-        margin-bottom: 20px;
+        /* margin-bottom: 20px; */
+        font-size: 18px;
+        font-size: 1.75rem;
     }
     
     .promo button {
-        margin-bottom: 20px;
+        /* margin-bottom: 20px; */
     }
     
     .our_adwantage {
@@ -978,7 +1010,7 @@ html, body {
     }
     
     .dots {
-        top: -30px;
+        /* top: -30px; */
     }
     
     .catalog_roll {
@@ -997,19 +1029,10 @@ html, body {
 }
 
 @media (max-width: 508px) {
-    #count {
+    /* #count {
         display: none;
-    }
-    
-    .mobile span {
-/*        display: none;*/
-        color: #000;
-        position: absolute;
-        right: 20px;
-        right: 30%;
-        top: 7px;
-    }
-    
+    } */
+   
     .adress {
         width: 100%;
     }
@@ -1021,7 +1044,7 @@ html, body {
     }
     
     .promo h1 {
-        font-size: 24px;
+        /* font-size: 24px; */
         font-size: 3.6rem;
     }
     
@@ -1078,6 +1101,23 @@ html, body {
 @media(max-width: 375px) {
     .footer_nav {
         padding: 0 70px;
+        display: flex;
+        width: 100%;
+        justify-content: center;
+    }
+
+    .footer_menu {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .mobile {
+        text-align: center;
+    }
+
+    .mobile span {
+        right: 30%;
     }
 }
 
